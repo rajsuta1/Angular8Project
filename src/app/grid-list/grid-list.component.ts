@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 
 
 @Component({
-  selector: 'app-grid-list',
+  selector: 'app-grid-list-test',
   templateUrl: './grid-list.component.html',
   styleUrls: ['./grid-list.component.scss']
 })

@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
 
-import { ExpansionPanelComponent } from './expansion-panel/expansion-panel.component';
+
 import { FormComponent } from './form/form.component';
 import { GridListComponent } from './grid-list/grid-list.component';
 import { HeaderBarComponent } from './header-bar/header-bar.component';
@@ -22,10 +22,7 @@ const routes: Routes = [
   path:"form",
   component:FormComponent
 },
-{
-  path:"expansion-panel",
-  component:ExpansionPanelComponent
-},
+
 {
   path:"header-bar",
   component:HeaderBarComponent
