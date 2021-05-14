@@ -1,6 +1,4 @@
 import { NgModule } from '@angular/core';
-
-
 import {MatButtonModule} from '@angular/material/button';
 import {MatSidenavModule} from '@angular/material/sidenav';
 import {MatToolbarModule} from '@angular/material/toolbar';
@@ -12,38 +10,21 @@ import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatInputModule} from '@angular/material/input';
 
 
-
-
 const materialcomponents =
 [ MatButtonModule,  
-    MatSidenavModule,
-    MatToolbarModule,
-    MatListModule,
-    MatGridListModule,
-    MatCardModule,
-    MatStepperModule,    
-    MatFormFieldModule,
-    MatInputModule
+MatSidenavModule,
+MatToolbarModule,
+MatListModule,
+MatGridListModule,
+MatCardModule,
+MatStepperModule, 
+MatFormFieldModule,
+
+MatInputModule,
 ]
 
 @NgModule({
-    imports: [ MatButtonModule,  
-        MatSidenavModule,
-        MatToolbarModule,
-        MatListModule,
-        MatGridListModule,
-        MatCardModule,
-        MatStepperModule,    
-        MatFormFieldModule,
-        MatInputModule ],
-    exports: [ MatButtonModule,  
-        MatSidenavModule,
-        MatToolbarModule,
-        MatListModule,
-        MatGridListModule,
-        MatCardModule,
-        MatStepperModule,    
-        MatFormFieldModule,
-        MatInputModule ]
+imports: [ ],
+exports: [ ]
 })
 export class MaterialModule { }

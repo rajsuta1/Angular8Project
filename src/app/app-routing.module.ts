@@ -10,8 +10,7 @@ import { SlideBarComponent } from './slide-bar/slide-bar.component';
 import { StepperComponent } from './stepper/stepper.component';
 import { TableComponent } from './table/table.component';
 import { TabsComponent } from './tabs/tabs.component';
-
-
+import { ExpansionPanelComponent } from './expansion-panel/expansion-panel.component';
 
 const routes: Routes = [ 
 {
@@ -43,11 +42,15 @@ const routes: Routes = [
   path:"tabs",
   component:TabsComponent
 },
-
 {
-  path:"", redirectTo:"/grid-list",pathMatch:"full"}
-];
+  path:"expansion-panel",
+  component:ExpansionPanelComponent
+},
+{
+  path:"", redirectTo:"/grid-list",pathMatch:"full"
+}
 
+];
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
